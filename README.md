@@ -1,4 +1,4 @@
-Este repositório, criado por eu, Michele, demonstra o conceito de polimorfismo na Programação Orientada a Objetos (POO).
+Este repositório que criei, demonstra o conceito de polimorfismo na Programação Orientada a Objetos (POO).
 O polimorfismo permite que classes diferentes (Carro, Moto e Caminhão) tenham o mesmo método (acelerar), mas com comportamentos diferentes.
 
 
