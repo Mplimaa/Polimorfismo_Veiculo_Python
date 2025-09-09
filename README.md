@@ -22,7 +22,8 @@ Main.py → Arquivo principal que cria os objetos e executa os métodos.
 Veiculo (superclasse, classe mãe)
 Classe genérica de onde os outros veículos herdam.
 Define o método acelerar(), que é sobrescrito nas subclasses.
-
+metodo da classe calcular_tempo_entrega abstractmethod, obriga as classes filhas implementar, só pode ser feito nas filhas, pois na principal não faz nada,
+só faz na classe filha que chamou o metodo(pass)
 
 Carro (subclasse)
 Herda de Veiculo.
