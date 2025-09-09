@@ -18,9 +18,10 @@ class Carro(Veiculo):
         else:
             print(f"O carro com {self.portas} portas, paciência!!!")
 
-    @classmethod
+    @override 
     def calcular_tempo_entrega(self,distancia):
         return distancia / 60 #vel. media 60km/h
+
 
 
 
