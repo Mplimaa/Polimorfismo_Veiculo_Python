@@ -7,6 +7,12 @@ meu_carro = Carro("Ford", "Mustang", portas=4)
 minha_moto = Moto("Honda", "CBR 600", cilindradas=599)
 meu_caminhao = Caminhao("Scania", "R 450", eixos=8)
 
+distancia1 = 100
+print("distancia do carro", Carro.calcular_tempo_entrega(distancia=distancia1))
+print("distancia da Moto", Moto.calcular_tempo_entrega(distancia=distancia1))
+print("distancia do Caminhao", Caminhao.calcular_tempo_entrega(distancia=distancia1))
+
+
 # Lista de veículos
 veiculos = [meu_carro, minha_moto, meu_caminhao]
 
