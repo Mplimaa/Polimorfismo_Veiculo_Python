@@ -18,7 +18,8 @@ class Caminhao(Veiculo):
         else:
             print(f"O caminhão tem {self.eixos} eixos pode não suportar de cargas de grande peso")
 
-    @classmethod
+    @override 
     def calcular_tempo_entrega(self,distancia):
         return distancia / 40 #vel. media 40km/h
+
 
