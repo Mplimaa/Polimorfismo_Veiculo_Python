@@ -19,7 +19,8 @@ class Moto(Veiculo):
         else:
             print("Essa moto precisa de técnica do motociclista p/ empinar.")
 
-    @classmethod
+    @override 
     def calcular_tempo_entrega(self,distancia):
         return distancia / 100 #vel. media 100km/h
+
 
