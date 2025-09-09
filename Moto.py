@@ -18,3 +18,8 @@ class Moto(Veiculo):
             print("Uau! A moto tem potência de sobra para empinar!")
         else:
             print("Essa moto precisa de técnica do motociclista p/ empinar.")
+
+    @classmethod
+    def calcular_tempo_entrega(self,distancia):
+        return distancia / 100 #vel. media 100km/h
+
